@@ -1,4 +1,4 @@
-## HELP International Funding Allocation Project
+# HELP International Funding Allocation Project
 Introduction:
 HELP International is an NGO aiming to fight poverty and provide basic amenities to backward countries. After raising $10 million through fundraising, the challenge was to strategically distribute the funds to the countries most in need.
 
@@ -18,18 +18,18 @@ Expected number of children born to each woman
 GDP per capita
 
 # Solution:
-1. Data Preprocessing:
+# 1. Data Preprocessing:
 Handled missing values and standardized the data for consistency.
 
-2. Principal Component Analysis (PCA):
+# 2. Principal Component Analysis (PCA):
 PCA was used to reduce the dimensionality of the dataset while retaining maximum variance.
 
-3. Clustering Algorithms:
+# 3. Clustering Algorithms:
 K-means Clustering: The countries were segmented into clusters based on socio-economic and health factors. The optimal number of clusters was determined using the Elbow Method.
 
 Hierarchical Clustering: Dendrograms were used to visualize and further confirm the optimal number of clusters derived from K-means.
 
-4. Cluster Analysis:
+# 4. Cluster Analysis:
 Each cluster was analyzed to understand its characteristics. Based on factors like GDPP, Child Mortality, Income, and Health, clusters were named as:
 
 Cluster 0: Underdeveloped (1st Priority for Funding)
